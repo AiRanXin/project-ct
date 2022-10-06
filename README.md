@@ -36,13 +36,13 @@
 
     3.使用flume框架采集通讯日记。 
 
-    4.用kafka把日记放入Hbase存储。 
+    4.kafka把日记传送到Hbase存储。 
 
     5.读取Hbase的数据并用MapReduce进行计算处理。 
 
-    6.使用yarn调度把mapreduce的结果输出MySQL。 
+    6.自定义outPut将mapreduce的结果输出MySQL。 
 
-    7.通过webServer查询MySQL里的数据并用Echart图
+    7.通过webServer读取MySQL里的数据并用Echart图展示
 
 *****
 4.案例展示
